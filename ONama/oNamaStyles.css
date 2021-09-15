@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.hheder{
+    background-color: rgb(23, 211, 117);
+    height: 25vh;
+}
+.heder{
+    display: table;
+    margin: 0 auto;
+}
+#logo{
+  position: absolute;
+  left: -50px;
+  top: 0px;
+}
+#lista{
+    /*min-width: 1920px;*/
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;  
+}
+#lista li{
+    display: inline;
+    margin-left: 50px;
+}
+.heder ul ul{
+    display: none;
+}
+.heder ul li:hover >ul{
+    display: block;
+}
+.heder ul ul{
+    margin-left: 275px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+#proizvodi .podproizvodi a{
+    display: block;
+    padding-left: 275px;
+    list-style: none;
+    opacity: 0;
+}
+#proizvodi a:hoover{
+    opacity: 1;
+}
+body{
+    width:100%;
+}
+.divOnama{
+    display: grid;
+    background-image: url(../slike/onama1.jpg);
+}
+.pasusi{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 60px;
+    font-size: 110%;
+    padding-bottom: 40px;
+    background-color: none;
+}
+#h1{
+    text-decoration: underline rgb(23, 211, 117);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 20px;
+}
+#h12{
+    margin-left: 225px;
+    text-decoration: underline rgb(23, 211, 117);
+}
+iframe{
+    height: 420px;
+}
+.lokacijaDiv{
+    margin-left: 30px;
+}
+.forma{
+    margin-left: 70px;
+    background-color: gray;
+    padding-left: 20px;
+    max-width: 550px;
+}
+#dugme{
+    margin-left: 400px;
+    background-color: green;
+    font-size:110%;
+}
+.ffuter{
+    margin: 0;
+    padding: 0;
+}
+.futer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(23, 211, 117);
+    padding-top: 20px;
+    overflow:hidden;
+    
+}
+.radno{
+    margin-left: 20px;
+}
+.kontakt{
+    margin-right: 50px;
+}
+
+
+

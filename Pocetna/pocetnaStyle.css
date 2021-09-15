@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hheder{
+    background-color: rgb(23, 211, 117);
+    height: 25vh;
+}
+.heder{
+    display: table;
+    margin: 0 auto;
+}
+#slika{
+  position: absolute;
+  left: -50px;
+  top: 0px;
+}
+#lista{
+    /*min-width: 1920px;*/
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;  
+}
+#lista li{
+    display: inline;
+    margin-left: 50px;
+}
+.heder ul ul{
+    display: none;
+}
+.heder ul li:hover >ul{
+    display: block;
+}
+.heder ul ul{
+    margin-left: 275px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+#proizvodi .podproizvodi a{
+    display: block;
+    padding-left: 275px;
+    list-style: none;
+    opacity: 0;
+}
+#proizvodi a:hoover{
+    opacity: 1;
+}
+.divSlike{
+    display: inline;
+    padding-bottom:0px ;
+    margin-bottom:0px ;
+}
+#slike{
+    height: 85vh;
+}
+.ffuter{
+    margin: 0;
+    padding: 0;
+}
+.futer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(23, 211, 117);
+    padding-top: 20px;
+    overflow:hidden;
+    
+}
+.radno{
+    margin-left: 20px;
+}
+.kontakt{
+    margin-right: 50px;
+}
+
+

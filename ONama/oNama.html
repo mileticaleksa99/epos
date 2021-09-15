@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Nama | Premier Liga Srbija</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="oNamaStyles.css">
+    
+</head>
+<body>
+
+    <div class="hheder">
+        <div class="heder">
+            <ul id="lista">
+                <li id="logo"><img src="../slike/logo1.png" style="height: 150px;" style="width: 150px;" ></li>
+                <li id="pocetna">
+                    <a href="../Pocetna/pocetna.html" >POČETNA</a>
+                </li>
+                <li id="onama">
+                     <a href="../ONama/oNama.html">O NAMA</a>
+                 </li>
+                 <li id="proizvodi">
+                     <a href="">PROIZVODI</a>
+                     <ul class="podProizvodi">
+                        <li id="dres">
+                            <a href="../Dresovi/dresovi.html" >Dresovi</a><br>
+                        </li>
+                        <li id="sal">
+                            <a href="../Salovi/salovi.html" >Šalovi</a><br>
+                        </li>
+                    </ul>
+                 </li>
+            </ul>
+         </div>
+    </div>
+    <div class="divOnama">
+        <div class="pasusi">
+        <h1 id="h1"><b>O NAMA</b></h1>
+        <br>
+        <p id="p1"><b>
+            Premier liga se igra u ovom formatu od 1992. godine. 
+            U njoj se svake godine takmiči 20 najboljih timova iz Engleske i Velsa. 
+            Igra se 38 kola u sezoni po principu svako sa svakim, na domaćem i gostojućem terenu. 
+            Najbolje plasirane 4 ekipe će se sledeće sezone takmičiti u Ligi Šampiona, dok poslednje 3 ekipe ispadaju iz lige.
+        </b></p>
+        <br>
+        <p id="p2"><b>
+            Kao veliki fanovi Premier lige, odločili smo da osnujemo Facebook i Instagram stranicu 2015.
+            koja je vremenom rasla i trenutno broji više od 50 000 pratilaca. Na stranicama postavljamo sadržaj vezan za 
+            rezultate, transfere i ostale vesti iz ovog prestižnog engleskog takmičenja. 
+        </b></p>
+        <br>
+        <p id="p3"><b>
+            Kako smo videli da je interesovanje u Srbiji za Premier ligom sve veće i veće, 2018. smo odlučili da krenemo 
+            i sa prodajom dresova, lopti i kopaćki. U početku smo se bavili isključivo online prodajom preko našeg sajta, 
+            a 2019. smo otvorili našu prvo prodavnicu u tržnom centru Beteks na Banovom brdu.
+        </b></p>
+        </div>
+        <h1 id="h12"><b>LOKACIJA</b></h1><br>
+        <div class="podDiv">
+            <div class="grid">
+                <div class="lokacijaDiv">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.9252580257903!2d20.415464415534785!3d44.782329079098766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6fd03e43d733%3A0xf3c6c84678e0ad3b!2sBetex!5e0!3m2!1sen!2srs!4v1631565646338!5m2!1sen!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="nadFormaDiv">
+                    <form class="forma">
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="ime"><b>IME</b></label>
+                            </div>
+                            <div class="txt">
+                                <input id="ime" type="text">
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="email"><b>E-MAIL</b></label>
+                            </div>
+                            <div class="txt">
+                                <input id="email" type="email">
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <div class="lbl">
+                                <label for="poruka"><b>VAŠA PORUKA</b></label>
+                            </div>
+                            <div class="txt">
+                                <textarea id="poruka" rows="20" cols="70"></textarea>
+                            </div>
+                        </div>
+                        <div class="formaDiv">
+                            <input onclick="provera()" id="dugme" type="submit" value="PROSLEDI">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div class="ffuter">
+        <div class="futer">
+            <div class="radno">
+            <h1><b>RADNO VREME</b></h1><br>
+            <p>Ponedeljak-Petak:<i> 8-22</i></p><br>
+            <p>Subota i nedelja:<i> 8-16</i></p>
+            </div>
+
+            <div class="follow">
+            <h1><b>PRATITE NAS</b></h1><br>
+            <a href="https://www.facebook.com/Premier-Liga-Srbija-701460713211662/"><img src="../slike/fb.png" style="width: 30px;" style="height: 30px;"></a>
+            <a href="https://www.instagram.com/plsrbija/"><img src="../slike/ig.png" style="width: 30px;" style="height: 30px;"></a>
+            </div>
+
+            <div class="kontakt">
+            <h1><b>KONTAKT</b></h1><br>
+            <p>Telefon: +381 60 5794 183</p><br>
+            <p>Adresa: Pozeska 42a, 11030 Beograd, RS</p><br>
+            <p>E-mail: prodaja@plsrbija.rs</p>
+            </div>
+        </div>
+   </div>
+   <script src="oNamaJS.js"></script>
+   <script src="oNamaJQ.js"></script>
+</body>
+</html>

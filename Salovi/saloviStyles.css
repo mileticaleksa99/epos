@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hheder{
+    background-color: rgb(23, 211, 117);
+    height: 25vh;
+}
+.heder{
+    display: table;
+    margin: 0 auto;
+}
+#slika{
+  position: absolute;
+  left: -50px;
+  top: 0px;
+}
+#lista{
+    /*min-width: 1920px;*/
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;  
+}
+#lista li{
+    display: inline;
+    margin-left: 50px;
+}
+.heder ul ul{
+    display: none;
+}
+.heder ul li:hover >ul{
+    display: block;
+}
+.heder ul ul{
+    margin-left: 275px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+#proizvodi .podproizvodi a{
+    display: block;
+    padding-left: 275px;
+    list-style: none;
+    opacity: 0;
+}
+#proizvodi a:hoover{
+    opacity: 1;
+}
+body{
+    overflow-x: hidden;
+}
+.salParent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 50px;
+    background-color:rgb(56, 50, 44);
+    height: 430vh;
+    padding-bottom: 20px;
+}
+.sal1{
+    background-image: url(../slike/liverpulsal.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.sal2{
+    background-image: url(../slike/junajtedsal.jpg);
+    background-size: cover;
+}
+.sal3{
+    background-image: url(../slike/sitisal.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.sal4{
+    background-image: url(../slike/arsenalsal.jpg);
+    background-size: cover;
+}
+.sal5{
+    background-image: url(../slike/celsisal.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.sal6{
+    background-image: url(../slike/totsal.jpg);
+    background-size: cover;
+}
+.sal7{
+    background-image: url(../slike/whsal.jpg);
+    margin-right: 10px;
+    background-size: cover;
+    text-align: right;
+}
+.sal8{
+    background-image: url(../slike/lestersal.jpg);
+    background-size: cover;
+}
+#slikaPopup{
+    width: 100%;
+    background-color: red;
+}
+#cena{
+    background-color: green;
+}
+.ffuter{
+    margin: 0;
+    padding: 0;
+}
+.futer{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: rgb(23, 211, 117);
+    padding-top: 20px;
+    overflow:hidden;
+    
+}
+.radno{
+    margin-left: 20px;
+}
+.kontakt{
+    margin-right: 50px;
+}
+
